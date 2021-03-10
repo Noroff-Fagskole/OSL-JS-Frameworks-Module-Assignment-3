@@ -54,6 +54,17 @@ Choose one:
 
 - Any HTML comging from the API can rendered usingg the "dangerouslySetInnerHTML" property from React. Use `dangerouslySetInnerHTML` to render it.
 
+## Level 2
+
+The home route should contain a login form.
+
+- Once logged in, the user should be redirected to the "/admin" route that lists all the `products`.
+
+- Clicking on `product` link should redirect to a "/admin/edit/{id}" route that populates a form.
+
+- The form should allow editing of the `title` , `price` and `desciption` .
+
+---
 
 ## Level 1 (WordPress)
 
@@ -69,8 +80,6 @@ Choose one:
 
 - The `excerpt` property contains HTML. Use `dangerouslySetInnerHTML` to render it.
 
----
-
 ## Level 2
 
 The home route should contain a login form.
@@ -80,3 +89,6 @@ The home route should contain a login form.
 - Clicking on a page should redirect to a "/admin/edit/{id}" route that populates a form.
 
 - The form should allow editing of the `title` property and the `status` property from a dropdown.
+
+---
+
