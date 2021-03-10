@@ -45,13 +45,13 @@ Choose one:
 
 - Clicking on a `products` should take the user to a "page/{id}" route.
 
-- Retrieve the id from the URL path and make a GET request to fetch the specific post.
+- Retrieve the id from the URL path and make a GET request to fetch the specific product.
 
 - Render the `title`, `price` and `description` properties.
 
 - Format the `date` in this format: 01 January 2021
 
-- Any HTML comging from the API can rendered usingg the "dangerouslySetInnerHTML" property from React. Use `dangerouslySetInnerHTML` to render it.
+- Any HTML coming from the API can rendered using the "dangerouslySetInnerHTML" property from React. Use `dangerouslySetInnerHTML` to render it.
 
 ## Level 2
 
