@@ -8,7 +8,6 @@ Create a new app using Create React App.
 
 Use either WordPress or Strapi as your backend/API (depending in which track you followed in class)
 
-You may use an old Strapi instance from a past eksamin and you can deploy strapi for free to Heroku [https://strapi.io/blog/deploying-a-strapi-api-on-heroku](https://strapi.io/blog/deploying-a-strapi-api-on-heroku). Use **SQLite DB**!
 
 You can create an app inside the current folder using:
 
@@ -63,6 +62,8 @@ The home route should contain a login form.
 - Clicking on `product` link should redirect to a "/admin/edit/{id}" route that populates a form.
 
 - The form should allow editing of the `title` , `price` and `desciption` .
+
+> You may use an old Strapi instance from a past eksamin and you can deploy strapi for free to Heroku [https://strapi.io/blog/deploying-a-strapi-api-on-heroku](https://strapi.io/blog/deploying-a-strapi-api-on-heroku). Use **SQLite DB**!
 
 ---
 
