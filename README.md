@@ -8,7 +8,6 @@ Create a new app using Create React App.
 
 Use either WordPress or Strapi as your backend/API (depending in which track you followed in class)
 
-
 You can create an app inside the current folder using:
 
 ```
@@ -25,8 +24,6 @@ Level 2 is optional.
 
 You can use a UI library like React Bootstrap or style it all on your own. The styling is not important for this assignment but every frontend project must always be responsive.
 
-You can use any Wordpress installation for this. DO NOT submit your Wordpress files and DO NOT combine your React frontend with your Wordpress files.
-
 Use `.env.development` to set the API URL. The markers will change this to their own URL when marking.
 
 The API calls in Level 1 do not require authorisation so you don't need to install or configure JWT support.
@@ -41,6 +38,10 @@ Choose one:
 
 ## Level 1 (Strapi)
 
+You can use any strapi installation for this. 
+
+Fork this: [https://github.com/mannuelf/strapi-backend-cms-api](https://github.com/mannuelf/strapi-backend-cms-api) use it if needs be.
+
 - Make an API call and list all the `products` in your Strapi installation. This should happen on the home route: "/"
 
 - Clicking on a `products` should take the user to a "page/{id}" route.
@@ -49,7 +50,7 @@ Choose one:
 
 - Render the `title`, `price` and `description` properties.
 
-- Format the `date` in this format: 01 January 2021
+- Format the `updated_at` date in this format: 01 January 2021
 
 - Any HTML coming from the API can rendered using the "dangerouslySetInnerHTML" property from React. Use `dangerouslySetInnerHTML` to render it.
 
@@ -68,6 +69,8 @@ The home route should contain a login form.
 ---
 
 ## Level 1 (WordPress)
+
+You can use any Wordpress installation for this. DO NOT submit your Wordpress files and DO NOT combine your React frontend with your Wordpress files.
 
 - Make an API call and list all the `pages` in your Wordpress installation. This should happen on the home route: "/"
 
